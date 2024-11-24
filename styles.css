@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.first {
+    padding: 200px;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=1470');
+    text-align: center;
+}
+
+.subfirst {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    display: inline-block;
+}
+
+/* Feature Section */
+.first-class {
+    padding: 50px;
+    text-align: center;
+}
+
+.second-class, .third-class {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div1, .div2, .div3, .div4 {
+    background-color: lavender;
+    border: 1px solid lavender;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}.center{
+    text-align: center;
+}
